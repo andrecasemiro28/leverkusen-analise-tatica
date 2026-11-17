@@ -1,0 +1,13 @@
+/*-- scss:defaults --*/
+$primary: #c8102e;
+$body-bg: #fbfaf7;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-weight: 700;
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+.lead-box { border-left: 4px solid $primary; background: #fff; padding: 1rem 1.25rem; margin: 1.5rem 0; border-radius: 4px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .75rem; margin: 1.25rem 0; }
+.kpi { background: #fff; border: 1px solid #e6e3dd; border-radius: 6px; padding: .8rem 1rem; }
+.kpi b { display: block; font-size: 1.3rem; color: $primary; line-height: 1.2; }
+.kpi span { font-size: .85rem; color: #57606a; }
+figure img, p img { border-radius: 4px; }
